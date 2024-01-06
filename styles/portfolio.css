@@ -24,7 +24,9 @@ body{
 /* nav related styles */
 nav{
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title{
@@ -47,3 +49,18 @@ nav a {
   text-decoration: none;
   color: #474747;
 } 
+
+/* header related class */
+.header{
+  background: #FFF8F3;
+}
+
+.bannar{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.bannar .profile-pic{
+  width: 500px;
+}
